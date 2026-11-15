@@ -1,0 +1,29 @@
+# Secrets — never commit API keys
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datasets and trained models (large, regenerable)
+data/
+models/
+
+# PyCharm: keep shared settings, ignore per-user state
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/tasks.xml
+.idea/dictionaries/
+
+# OS
+.DS_Store
+Thumbs.db
