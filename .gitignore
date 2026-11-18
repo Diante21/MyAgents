@@ -13,6 +13,11 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 
+# Personal brokerage data — your holdings, wherever the file is saved in the project.
+# (data/ below already covers data/portfolio.csv; this also catches a copy saved
+# anywhere else. docs/portfolio.example.csv has a different name, so it stays tracked.)
+portfolio.csv
+
 # Datasets and trained models (large, regenerable)
 data/
 models/

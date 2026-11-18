@@ -1,0 +1,7 @@
+anthropic>=1.0        # Claude API SDK
+pydantic>=2.7         # schemas for structured outputs
+python-dotenv>=1.0    # loads ANTHROPIC_API_KEY from .env
+pandas>=2.2           # price data + indicators
+yfinance>=0.2.50      # free market data (unofficial Yahoo Finance API)
+scikit-learn>=1.5     # ML models for price-move prediction (includes joblib)
+pytest>=8.0           # tests
